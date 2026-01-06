@@ -1,0 +1,10 @@
+
+base_yaml: "configs/base.yaml"
+scale: "log"
+param: "COOP"
+min_val: 1.
+max_val: 10000
+steps: 8
+output_dir: rf"C:\Users\Albi\Desktop\DnaA_manuscript\results\data"
+tag: "coop"
+

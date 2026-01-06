@@ -1,0 +1,18 @@
+
+base_yaml: "./src/configs/base.yaml"
+
+type: "grid"  # sweep strategy; remove if your script infers it
+params:
+  COOP:
+    scale: "log"
+    min_val: 1.0
+    max_val: 2000.0
+    steps: 8
+  CHANGE:
+    scale: "linear"
+    min_val: 1.1        # adjust to your desired range
+    max_val: 1.8    # adjust to your desired range
+    steps: 4
+
+output_dir: rf"C:\Users\Albi\Desktop\DnaA_manuscript\results\data"
+tag: "coop_chi0"
